@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width:100px;
+}
+.container{
+    min-height:72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin:23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    flex-direction: column;
+}
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color: black;
+    color: white;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.songItem{
+    margin: 12px 0;
+    justify-content: space-between;
+ height: 50px;
+ display: flex;
+ background-color: white;
+ width:30%;
+ color:black;
+ border-radius: 14px;
+ align-items: center;
+ 
+
+}
+.songItem img{
+  width:60px;
+  margin:0 23px;
+  border-radius: 34px;  
+}
+.timestamp{
+    align-items: center;
+}
+.songBanner{
+    background-image: url('bg.jpg');
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 200vh;
+    cursor: pointer;
+}
